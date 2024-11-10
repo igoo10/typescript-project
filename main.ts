@@ -21,7 +21,7 @@ class Car implements Vehicle {
         this.year = year;
     }
 
-    // Implement the start method to log "Car engine started" to the console
+    // Implement the start method to log "ighalo Car engine started" to the console
     start(): void {
         console.log("ighalo Car engine started");  // logs a custom start message
     }
@@ -31,4 +31,9 @@ class Car implements Vehicle {
 const myCar = new Car("Toyota", "Corolla", 2021);  // Initialize with make, model, and year
 
 // Step 4: Call the start method to verify the output
-myCar.start();  // should log "Car engine started" to the console
+myCar.start(); 
+
+
+//IF ERROR OCCUR, chan"ge execution policy in powershell
+// In the PowerShell window, enter the following command to set the execution policy to allow scripts to run:
+//Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
